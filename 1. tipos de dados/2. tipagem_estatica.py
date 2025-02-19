@@ -7,7 +7,7 @@ nome: str # Equivalente ao tipo Caracter
 idade: int # Equivalente ao tipo Inteiro
 aluno: float # Equivalente ao tipo Real
 
-nome= "Marta"
+nome: ("Marta")
 idade: 23
 altura: 1.65
 
