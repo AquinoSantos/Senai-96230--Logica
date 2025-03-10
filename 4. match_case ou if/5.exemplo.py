@@ -21,8 +21,8 @@ if forma_pagamento == 1:
 elif forma_pagamento == 2:
     parcelas = int(input("Digite a quantidade de parcelas (até 6 vezes): "))
 
-    if parcelas > 6:
-        print("Quantidade de parcelas não permitido, o maximo são 6 parcelas.")
+    if parcelas < 1 or parcelas > 6:
+        print("Quantidade de parcelas não permitido, o minimo é uma parcela e o maximo são 6 parcelas.")
     else:
         valor_parcela = produto / parcelas
         print(f"Valor do produto: R${produto}")
