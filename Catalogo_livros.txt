@@ -1,0 +1,15 @@
+
+Nome: Harry Potter e a Ordem da Fênix
+Autor: J.K.Rowling
+Categoria: Fantasia
+Preço: 50.0
+
+Nome: Persy Jackson e o Ladrão de Raios
+Autor: Rick Riordan
+Categoria: Ação
+Preço: 70.0
+
+Nome: O Hobbit: A desolação de Smaug
+Autor: J.R.R. Tolkien
+Categoria: Fantasia e Ação
+Preço: 90.0
