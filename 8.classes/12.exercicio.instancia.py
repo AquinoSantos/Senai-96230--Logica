@@ -31,26 +31,38 @@ for i in range(5):
     lista_funcionarios.append(funcionario)
 
 #salvando em arquivo .txt
-nome_arquivo = "Funcionarios.txt"
-with open(nome_arquivo, "a") as arquivo_funcionarios:
+nome_arquivo = "Funcionarios_sub.txt"
+with open(nome_arquivo, "a", encoding= "utf-8") as arquivo_funcionarios:
     for funcionario in lista_funcionarios:
         arquivo_funcionarios.write(f"Nome: {funcionario.nome}\nData de Nascimento: {funcionario.data_nascimento}\nRG: {funcionario.rg}\nCPF: {funcionario.cpf}\n")
 
 print(f"\nDados salvos com sucesso\n")
 
-#Exibindo dados do funcionario
-for funcionario in lista_funcionarios:
-    funcionario.exibir_dados()
+print("===Lendo dados do arquivo===")
+
+
+try:
+    with open(nome_arquivo, "r", encoding= "utf-8") as arquivo:
+
+        linhas = arquivo.readlines()
+        print("Conteúdo do arquivo:")
+        
+    for linha in linhas:
+        print(linha.strip())
+
+except FileNotFoundError:
+    print(f"Arquivo não encontrado.")
+    
 
 
 
 
-#use o try para ler os dados do arquivo Funcionarios.txt e mostre na tela para o usuario
+
 try:
     with open(nome_arquivo, "r") as arquivo_funcionarios:
         conteudo = arquivo_funcionarios.read()
         print("Conteúdo do arquivo:")
         print(conteudo)
 except FileNotFoundError:
-    print(f"Arquivo {nome_arquivo} não encontrado.")
 
+    print(f"Arquivo {nome_arquivo} não encontrado.")
