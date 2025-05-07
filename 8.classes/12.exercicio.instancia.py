@@ -58,11 +58,3 @@ except FileNotFoundError:
 
 
 
-try:
-    with open(nome_arquivo, "r") as arquivo_funcionarios:
-        conteudo = arquivo_funcionarios.read()
-        print("Conteúdo do arquivo:")
-        print(conteudo)
-except FileNotFoundError:
-
-    print(f"Arquivo {nome_arquivo} não encontrado.")

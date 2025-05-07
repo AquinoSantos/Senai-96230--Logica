@@ -1,0 +1,54 @@
+Nome do Funcionario: Andre
+Data de Admissão: 01/01/2001
+Matricula: 1
+Endereço do Funcionario:  Al 1
+
+Nome do Funcionario: Camila
+Data de Admissão: 02/02/2002
+Matricula: 2
+Endereço do Funcionario: Al 2
+
+Nome do Funcionario: Julia
+Data de Admissão: 03/03/2003
+Matricula: 3
+Endereço do Funcionario: Al 3
+
+Nome do Cliente: Amanda
+Data de Nascimento: 02/02/1998
+Endereço do Cliente:  Al 1-1
+
+Nome do Cliente: Carlos
+Data de Nascimento: 03/02/1999
+Endereço do Cliente: Al 2-1
+
+Nome do Cliente: Jackson
+Data de Nascimento: 04/02/2000
+Endereço do Cliente: Al 3-1
+
+
+Nome do Funcionario: ss
+Data de Admissão: s
+Matricula: s
+Endereço do Funcionario: s
+
+Nome do Funcionario: s
+Data de Admissão: s
+Matricula: s
+Endereço do Funcionario: s
+
+Nome do Funcionario: s
+Data de Admissão: s
+Matricula: s
+Endereço do Funcionario: 
+
+Nome do Cliente: s
+Data de Nascimento: s
+Endereço do Cliente: s
+
+Nome do Cliente: s
+Data de Nascimento: s
+Endereço do Cliente: s
+
+Nome do Cliente: s
+Data de Nascimento: s
+Endereço do Cliente: s
