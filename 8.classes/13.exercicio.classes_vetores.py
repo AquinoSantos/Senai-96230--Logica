@@ -76,7 +76,7 @@ try:
     for linha in linhas:
         print(linha.strip())
 
-except FileNotFoundErrors:
+except FileNotFoundError:
     print(f"Arquivo não encontrado.")
 
 
