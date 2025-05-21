@@ -1,0 +1,25 @@
+body{
+ background: #190dc4;
+ background: linear-gradient(to bottom, #6aca10c7, #00c6ff);
+ font-size:large
+ padding = 50px;
+ margin: 60px;
+
+}
+
+table tbody tr{
+    padding: 10px;
+    background: #e0ff32f3
+
+    
+    
+
+}
+table thead{   
+    background: #13dfdf;
+    padding: 10px;
+    
+
+}
+
+    
