@@ -1,4 +1,4 @@
-let nome: "Maria"
+let nome = "Marta"
 
 nome = "Marta"
 
