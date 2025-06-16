@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Média</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    
+   
+    <h1>Cálculo de Média</h1>
+    <h2>Insira as notas abaixo:</h2>
+       
+    <div class="container">
+        <input type="number" id="nota1" placeholder="Nota 1" min="0" max="10">
+        <input type="number" id="nota2" placeholder="Nota 2" min="0" max="10">
+        <input type="number" id="nota3" placeholder="Nota 3" min="0" max="10">
+
+        
+
+        
+        
+        <button onclick="calcularMedia()">Calcular Média</button>
+        <div class="resultado" id="resultado"></div>
+        <div id="imagem-container">
+            <img id="imagemStatus" src="" alt="" style="display: none;" width="215" height="200">
+        </div>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
